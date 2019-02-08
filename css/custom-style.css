@@ -1,0 +1,59 @@
+/*
+
+NOTE:
+------
+WRITE YOUR OWN CUSTOM CSS STYLES HERE.
+
+*/
+
+.banner--content {
+    width: 40%;
+    color: #dcdcdc;
+}
+
+.banner--content p a {
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+}
+
+.header--nav .nav li a {
+    position: relative;
+    padding: 15px 0 10px;
+    color: #ffffff;
+    outline: 0;
+}
+
+.logo {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #cecece;
+    text-decoration: none;
+    outline: 0;
+}
+
+.header--nav .nav li a:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    width: 0;
+    height: 1px;
+    background-color: #8BC34A;
+    -webkit-transition: width .25s ease-in-out;
+    transition: width .25s ease-in-out;
+}
+
+body.scrolled .header--navbar {
+    background-color: #000;
+}
+
+
+.gallery-overlay {
+    background: rgba(33, 33, 33, 0.9);
+
+}
